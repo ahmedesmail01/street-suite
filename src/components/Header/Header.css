@@ -1,0 +1,94 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 60px;
+	padding-right: 60px;
+	align-items: center;
+}
+
+.header .logo {
+	width: 110px;
+	margin-right: 35px;
+}
+
+.header .side_logo {
+	background-color: #181818;
+	display: flex;
+	height: 61px;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 1;
+	border-radius: 16px;
+	padding-right: 16px;
+}
+
+.header .admin_info {
+	display: flex;
+	align-items: center;
+}
+.header .search_holder {
+	display: flex;
+	align-items: center;
+}
+.header .search_glass {
+	position: relative;
+	left: 25px;
+}
+
+.header .search_input {
+	width: 388px;
+	height: 38px;
+	border-radius: 20px;
+	border: none;
+	background: #f5f6fa;
+	color: black;
+	padding-left: 30px;
+}
+
+.header .notification_holder {
+	position: relative;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.header .notifications {
+	position: absolute;
+	top: -6px;
+	width: 18px;
+}
+
+.header .oval {
+	position: absolute;
+	top: -12px;
+	left: 9px;
+	width: 13px;
+}
+
+.header .noti_num {
+	position: absolute;
+	top: -14px;
+	left: 12px;
+	font-size: 11px;
+}
+
+.header .avatar {
+	margin-right: 16px;
+}
+
+.header .user_info {
+	margin-right: 19px;
+}
+
+.header .user_name {
+	margin: 0;
+	font-size: 15px;
+	color: #404040;
+}
+
+.header .user_position {
+	margin: 0;
+	font-size: 12px;
+	color: #404040;
+}

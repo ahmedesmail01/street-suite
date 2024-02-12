@@ -1,0 +1,79 @@
+.sidebar {
+	background-color: #212121;
+	padding: 16px;
+	margin: 16px;
+	border-radius: 16px;
+	width: 340px;
+	height: 587px;
+	font-family: "Poppins", sans-serif;
+}
+
+.sidebar h1 {
+	text-align: center;
+}
+.sidebar .sidebox {
+	margin-bottom: 15px;
+}
+
+.sidebar label {
+	font-size: 14px;
+}
+.sidebar .select_holder {
+	position: relative;
+}
+
+.sidebar .select_holder img {
+	position: absolute;
+	top: 7px;
+	left: 15px;
+}
+
+.sidebar select {
+	padding: 7px 40px;
+	width: 100%;
+	border-radius: 8px;
+	color: rgba(255, 255, 255, 0.438);
+	background-color: var(--inputs-background);
+}
+
+.sidebar option {
+	color: #484848;
+}
+
+.sidebar p {
+	color: #484848;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.sidebar .risk_option {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-top: 10px;
+	padding: 5px;
+	color: white;
+}
+
+.sidebar .risk_option:hover {
+	background-color: white;
+	color: #6d6d6d;
+}
+
+.sidebar .risk_option img {
+	margin-right: 6px;
+}
+
+.sidebar button {
+	width: 100%;
+	background-color: var(--button-color);
+	color: white;
+	text-align: center;
+	border: none;
+	border-radius: 16px;
+	padding: 16px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 20px;
+}
